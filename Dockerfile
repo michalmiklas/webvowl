@@ -9,7 +9,7 @@
 FROM tomcat:9-jre8-alpine
 
 # Build time arguments (WebVOWL version)
-ARG version=1.1.4
+ARG version=1.1.7
 
 # Download WebVOWL to tomcat webapps directory as root app
 RUN rm -rf /usr/local/tomcat/webapps/* && \
